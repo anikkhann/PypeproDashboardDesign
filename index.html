@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&display=swap" rel="stylesheet">
+    <!-- materialize icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <title>Dashboard Design</title>
+</head>
+
+<body class="body_color">
+
+    <!-- Navbar start-->
+
+    <nav class="nav_body">
+        <div class="nav-wrapper">
+            <!-- Navbar small screen menu button work start-->
+
+            <ul id="slide-out" class="sidenav">
+                <div class="side-menu">
+
+
+                    <li href="#"> <span>Dashboard</span></li>
+                    <li href="#"><span>Inbox</span></li>
+                    <li href="#" class="deals_button"><span>Deals</span></li>
+                    <li href="#"><span>Calender</span></li>
+                    <li href="#"><span>Contacts</span></li>
+                    <li href="#">><span>Marketing</span></li>
+                    <li href="#"><span>Find New Leads</span></li>
+                    <li href="#"><span>Triggers</span></li>
+                    <li href="#"><span>Reporting</span></li>
+                    <li href="#"><span>Settings</span></li>
+                    <li href="#"><span>Training</span></li>
+                    <li href="#"><span>Accounts</span></li>
+
+                </div>
+
+                <li class="search_icon ">
+
+                    <input type="search" placeholder="Search">
+                    <label class="icon">
+                        <span>
+                            <i class="material-icons">search</i>
+                        </span>
+
+                    </label>
+
+                </li>
+
+
+                <a class="dropdown-trigger" href="#!" data-target="dropdown1"> <img src="./image/Ellipse 28.png"
+                        alt=""><i class="material-icons right">arrow_drop_down</i>Admin</a>
+                </li>
+
+            </ul>
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <!-- menu end -->
+            <!-- main design of navbar start here -->
+            <a href="#!" class="pypepro hide-on-med-and-down"><i class="material-icons left">palette</i>Pypepro </a>
+
+
+
+            <ul class="right hide-on-small-only">
+                <li class="search_icon ">
+
+                    <input type="search" placeholder="Search">
+                    <label class="icon">
+                        <span>
+                            <i class="material-icons">search</i>
+                        </span>
+
+                    </label>
+
+                </li>
+
+                <li>
+                    <a class="btn-floating btn-medium waves-effect waves-light nav_call_button"><i
+                            class="material-icons">call</i></a>
+                </li>
+
+                <li>
+                    <a class="btn-floating btn-medium waves-effect waves-light nav_add_button"><i
+                            class="material-icons">add</i></a>
+                </li>
+                <li>
+                    <a class="btn-floating btn-medium waves-effect waves-light nav_add_button"><i
+                            class="material-icons">notifications_none </i></a>
+                </li>
+                <li>
+                    <a class="btn-floating btn-medium waves-effect waves-light nav_add_button"><i
+                            class="material-icons">live_help</i></a>
+                </li>
+
+                <li>
+
+                    <a class="dropdown-trigger" href="#!" data-target="dropdown1"> <img src="./image/Ellipse 28.png"
+                            alt=""><i class="material-icons right">arrow_drop_down</i>Admin</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </nav>
+
+
+
+    <!-- Sidebar start -->
+    <div class="row">
+        <div class="col m3   ">
+            <div class="side-menu">
+
+
+                <a href="#"> <i class="material-icons">home</i><span>Dashboard</span></a>
+                <a href="#"><i class="material-icons">question_answer</i><span>Inbox</span></a>
+                <a href="#" class="deals_button"><i class="material-icons">monetization_on</i><span>Deals</span></a>
+                <a href="#"><i class="material-icons">insert_invitation</i><span>Calender</span></a>
+                <a href="#"><i class="material-icons">supervisor_account</i><span>Contacts</span></a>
+                <a href="#"><i class="material-icons">hearing</i><span>Marketing</span></a>
+                <a href="#"><i class="material-icons">search</i><span>Find New Leads</span></a>
+                <a href="#"><i class="material-icons">flash_on</i><span>Triggers</span></a>
+                <a href="#"><i class="material-icons">pie_chart</i><span>Reporting</span></a>
+                <a href="#"><i class="material-icons">settings</i><span>Settings</span></a>
+                <a href="#"><i class="material-icons">play_circle_filled</i><span>Training</span></a>
+                <a href="#"><i class="material-icons">person</i><span>Accounts</span></a>
+                <a href="#"><i class="material-icons blue">sort</i><span></span></a>
+
+            </div>
+        </div>
+        <!-- main body part start -->
+        <div class="col m9 s12">
+
+            <div class="main-container" style="background-color:  #FFFFFF; margin-top: 10%;">
+                <!-- Deal part start -->
+                <div class="row">
+
+                    <div class="col m12 " style="display: flex; justify-content: space-between;">
+                        <div class="section">
+                            <h6> <strong>Deal</strong> </h6>
+                        </div>
+
+
+                        <div class="section deal">
+                            <a class="btn bullet_button" href="#"> <i
+                                    class="material-icons">format_list_bulleted</i></a>
+                            <a class="btn gradient_button" href="#"> <i class="material-icons">gradient</i></a>
+                            <a class="btn bullet_button" href="#"> <i class="material-icons">dashboard</i></a>
+                            <a class="btn bullet_button" href="#"> <i class="material-icons">insert_chart</i></a> &nbsp;
+                            <a class="waves-effect waves-light btn-small circle_button"><i
+                                    class="material-icons left">add_circle</i>Create List</a>
+                            <a class="waves-effect waves-light btn-small circle_button"><i
+                                    class="material-icons left">settings_applications</i>Settings</a>
+                            <a class="btn-floating btn-small waves-effect waves-light visibility_button deal-icon"><i
+                                    class="material-icons">visibility_off</i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Vehicle and search part start -->
+                <div class="divider"></div>
+                <div class="row">
+                    <div class="col m12 " style="display: flex; justify-content: space-between;">
+                        <div class="section">
+                            <a class="waves-effect waves-light btn  dropdown-trigger vehicle_button"
+                                data-target='dropdown1'><i class="material-icons right">keyboard_arrow_down</i>Vehicle
+                                Sell</a>
+                            <ul id='dropdown1' class='dropdown-content'>
+                                <li><a href="#!">one</a></li>
+                                <li><a href="#!">two</a></li>
+                                <li class="divider" tabindex="-1"></li>
+                                <li><a href="#!">three</a></li>
+                                <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+                                <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+                            </ul>
+
+                            <a class="waves-effect waves-light btn  dropdown-trigger vehicle_button"
+                                data-target='dropdown1'><i
+                                    class="material-icons right">keyboard_arrow_down</i>Active</a>
+                            <ul id='dropdown1' class='dropdown-content'>
+                                <li><a href="#!">one</a></li>
+                                <li><a href="#!">two</a></li>
+                                <li class="divider" tabindex="-1"></li>
+                                <li><a href="#!">three</a></li>
+                                <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+                                <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+                            </ul>
+
+                            <a class="waves-effect waves-light btn  dropdown-trigger vehicle_button vehicle_button_2"
+                                data-target='dropdown1'><i class="material-icons right">insert_invitation
+                                    keyboard_arrow_down</i></a>
+                            <ul id='dropdown1' class='dropdown-content'>
+                                <li><a href="#!">one</a></li>
+                                <li><a href="#!">two</a></li>
+                                <li class="divider" tabindex="-1"></li>
+                                <li><a href="#!">three</a></li>
+                                <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+                                <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+                            </ul>
+
+
+
+                        </div>
+                        <div class="section">
+                            <div class="search_box">
+                                <input type="search" placeholder="Search">
+                                <label class="icon_2">
+                                    <span>
+                                        <i class="material-icons">search</i>
+                                    </span>
+
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="divider"></div>
+                <!-- Total pipeline,deals, won,lost start -->
+                <div class="row">
+                    <div class="col m12">
+                        <div class="section">
+                            <p class="account_info">Total Pipeline Value: $20K | Total Open Deals: $20K | Total Won: $0
+                                | Total Lost: $0</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+
+                    <!-- John Doe deals part design start -->
+                    <div class="row">
+
+                        <div class="col m12">
+                            <div class="col m3 section"
+                                style="background-color:  rgba(60, 126, 243, 0.1); clip-path: polygon(98% 8%, 100% 50%, 98% 92%, 0 91%, 0 51%, 0 8%);">
+                                <h6>John Do </h6>
+                                <div style="display: flex; justify-content: space-between;">
+
+                                    <p>1 Deal</p>
+                                    <p style="color: #C4C4C4;">.</p>
+                                    <p> <strong>$1.2K</strong></p>
+
+                                    <a class="btn-floating btn-small waves-effect waves-light add_button"><i
+                                            class="material-icons">add</i></a>
+
+
+                                </div>
+                                <!-- <a class="btn-floating btn-small waves-effect waves-light "><i class="material-icons">add</i></a> -->
+                            </div>
+                            <div class="col m3 section"
+                                style="background-color:  rgba(60, 126, 243, 0.1); clip-path: polygon(98% 8%, 100% 50%, 98% 92%, 0 91%, 2% 54%, 0 8%);">
+                                <h6>John Do </h6>
+                                <div style="display: flex; justify-content: space-between;">
+
+                                    <p>1 Deal</p>
+                                    <p style="color: #C4C4C4;">.</p>
+                                    <p><strong>$1.2K</strong></p>
+
+                                    <a class="btn-floating btn-small waves-effect waves-light add_button"><i
+                                            class="material-icons">add</i></a>
+
+
+                                </div>
+                            </div>
+                            <div class="col m3 section"
+                                style="background-color:  rgba(60, 126, 243, 0.1);  clip-path: polygon(98% 8%, 100% 50%, 98% 92%, 0 91%, 2% 54%, 0 8%);">
+                                <h6>John Do </h6>
+                                <div style="display: flex; justify-content: space-between;">
+
+                                    <p>1 Deal</p>
+                                    <p style="color: #C4C4C4;">.</p>
+                                    <p><strong>$1.2K</strong></p>
+
+                                    <a class="btn-floating btn-small waves-effect waves-light add_button"><i
+                                            class="material-icons">add</i></a>
+
+
+                                </div>
+                            </div>
+                            <div class="col m3 section"
+                                style="background-color:  rgba(60, 126, 243, 0.1);  clip-path: polygon(98% 8%, 100% 50%, 98% 92%, 0 91%, 2% 54%, 0 8%);"">
+                            <h6>John Do </h6>
+                                <div style=" display: flex; justify-content: space-between;">
+
+                                <p>1 Deal</p>
+                                <p style="color: #C4C4C4;">.</p>
+                                <p><strong>$1.2K</strong></p>
+
+                                <a class="btn-floating btn-small waves-effect waves-light add_button"><i
+                                        class="material-icons">add</i></a>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <!-- John Doe card design with slider design start -->
+                <div class="row">
+                    <div class="col m12  bottom_scroll">
+                        <div class="col m3 john_doe_scroll">
+                            <!-- 1st info card design -->
+                            <div style="background-color: #FFFFFF; border: 3px solid #E5E8EF; box-sizing: border-box;
+                            border-radius: 10px;">
+                                <div>
+                                    <h6>John Do <span style=" color: #3C7EF3;">($1.2K)</span></h6>
+
+                                    <p style="color: #8896A8;">Time In Stage : 1 Week Ago</p>
+                                </div>
+
+                                <div style="display: flex; justify-content: space-between;">
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">perm_identity</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">textsms</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">call</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">keyboard_voice</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">email</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">assignment</i></a>
+                                    </div> &nbsp;
+
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light navigate_button"><i
+                                                class="material-icons">navigate_next</i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- 2nd info card -->
+                            <div style="background-color: #FFFFFF; border: 3px solid #E5E8EF; box-sizing: border-box;
+                                    border-radius: 10px; margin-top: 4%;">
+                                <div>
+                                    <h6>John Do <span style=" color: #3C7EF3;">($1.2K)</span></h6>
+
+                                    <p style="color: #8896A8;">Time In Stage : 1 Week Ago</p>
+                                </div>
+
+                                <div style="display: flex; justify-content: space-between;">
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">perm_identity</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">textsms</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">call</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">keyboard_voice</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">email</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">assignment</i></a>
+                                    </div> &nbsp;
+
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light navigate_button"><i
+                                                class="material-icons">navigate_next</i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- 2nd info card end -->
+                            <!-- 3rd  info card start -->
+
+                            <div style="background-color: #FFFFFF; border: 3px solid #E5E8EF; box-sizing: border-box;
+                                   border-radius: 10px;  margin-top: 4%;">
+                                <div>
+                                    <h6>John Do <span style=" color: #3C7EF3;">($1.2K)</span></h6>
+
+                                    <p style="color: #8896A8;">Time In Stage : 1 Week Ago</p>
+                                </div>
+
+                                <div style="display: flex; justify-content: space-between;">
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">perm_identity</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">textsms</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">call</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">keyboard_voice</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">email</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">assignment</i></a>
+                                    </div> &nbsp;
+
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light navigate_button"><i
+                                                class="material-icons">navigate_next</i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- 3rd info card end -->
+                            <!-- 4rth info card start -->
+                            <div style="background-color: #FFFFFF; border: 3px solid #E5E8EF; box-sizing: border-box;
+                                   border-radius: 10px; margin-top: 4%;">
+                                <div>
+                                    <h6>John Do <span style=" color: #3C7EF3;">($1.2K)</span></h6>
+
+                                    <p style="color: #8896A8;">Time In Stage : 1 Week Ago</p>
+                                </div>
+
+                                <div style="display: flex; justify-content: space-between;">
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">perm_identity</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">textsms</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">call</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">keyboard_voice</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">email</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">assignment</i></a>
+                                    </div> &nbsp;
+
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light navigate_button"><i
+                                                class="material-icons">navigate_next</i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- 4th info card end -->
+                        </div>
+                        <!-- Second Part of card (No deal In this page) design start -->
+                        <div class="col m3">
+                            <div class="no-deal-stage" style="background-color: #FFFFFF; border: 3px solid #E5E8EF; box-sizing: border-box;
+                                 border-radius: 10px; height: 400px;">
+                                <div style="text-align:center ; color: #99A6B9;   padding: 170px 0;">
+                                    <p>No Deal In This Stage</p>
+
+                                    <a class="btn-floating btn-small waves-effect waves-light add_button"><i
+                                            class="material-icons left">add</i></a> &nbsp;
+                                    <span style="color: #546376;">Add Deal</span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!-- Third part of card design start -->
+                        <div class="col m3 john_doe_scroll">
+                            <!-- 5th info card design -->
+                            <div style="background-color: #FFFFFF; border: 3px solid #E5E8EF; box-sizing: border-box;
+                                border-radius: 10px;">
+                                <div>
+                                    <h6>John Do <span style=" color: #3C7EF3;">($1.2K)</span></h6>
+
+                                    <p style="color: #8896A8;">Time In Stage : 1 Week Ago</p>
+                                </div>
+
+                                <div style="display: flex; justify-content: space-between;">
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">perm_identity</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">textsms</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">call</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">keyboard_voice</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">email</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">assignment</i></a>
+                                    </div> &nbsp;
+
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light navigate_button"><i
+                                                class="material-icons">navigate_next</i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- 6th info card -->
+                            <div style="background-color: #FFFFFF; border: 3px solid #E5E8EF; box-sizing: border-box;
+                                        border-radius: 10px; margin-top: 4%;">
+                                <div>
+                                    <h6>John Do <span style=" color: #3C7EF3;">($1.2K)</span></h6>
+
+                                    <p style="color: #8896A8;">Time In Stage : 1 Week Ago</p>
+                                </div>
+
+                                <div style="display: flex; justify-content: space-between;">
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">perm_identity</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">textsms</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">call</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">keyboard_voice</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">email</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">assignment</i></a>
+                                    </div> &nbsp;
+
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light navigate_button"><i
+                                                class="material-icons">navigate_next</i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- 6th info card end -->
+                            <!-- 7th  info card start -->
+
+                            <div style="background-color: #FFFFFF; border: 3px solid #E5E8EF; box-sizing: border-box;
+                                       border-radius: 10px;  margin-top: 4%;">
+                                <div>
+                                    <h6>John Do <span style=" color: #3C7EF3;">($1.2K)</span></h6>
+
+                                    <p style="color: #8896A8;">Time In Stage : 1 Week Ago</p>
+                                </div>
+
+                                <div style="display: flex; justify-content: space-between;">
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">perm_identity</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">textsms</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">call</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">keyboard_voice</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">email</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">assignment</i></a>
+                                    </div> &nbsp;
+
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light navigate_button"><i
+                                                class="material-icons">navigate_next</i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- 7th info card end -->
+                            <!-- 8th info card start -->
+                            <div style="background-color: #FFFFFF; border: 3px solid #E5E8EF; box-sizing: border-box;
+                                       border-radius: 10px; margin-top: 4%;">
+                                <div>
+                                    <h6>John Do <span style=" color: #3C7EF3;">($1.2K)</span></h6>
+
+                                    <p style="color: #8896A8;">Time In Stage : 1 Week Ago</p>
+                                </div>
+
+                                <div style="display: flex; justify-content: space-between;">
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">perm_identity</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">textsms</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">call</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">keyboard_voice</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">email</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">assignment</i></a>
+                                    </div> &nbsp;
+
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light navigate_button"><i
+                                                class="material-icons">navigate_next</i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- 8th info card end -->
+                        </div>
+                        <!-- Fourth part of card design  start -->
+                        <div class="col m3 john_doe_scroll">
+                            <!-- 9th info card design -->
+                            <div style="background-color: #FFFFFF; border: 3px solid #E5E8EF; box-sizing: border-box;
+                                    border-radius: 10px;">
+                                <div>
+                                    <h6>John Do <span style=" color: #3C7EF3;">($1.2K)</span></h6>
+
+                                    <p style="color: #8896A8;">Time In Stage : 1 Week Ago</p>
+                                </div>
+
+                                <div style="display: flex; justify-content: space-between;">
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">perm_identity</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">textsms</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">call</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">keyboard_voice</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">email</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">assignment</i></a>
+                                    </div> &nbsp;
+
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light navigate_button"><i
+                                                class="material-icons">navigate_next</i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- 10th info card -->
+                            <div style="background-color: #FFFFFF; border: 3px solid #E5E8EF; box-sizing: border-box;
+                                            border-radius: 10px; margin-top: 4%;">
+                                <div>
+                                    <h6>John Do <span style=" color: #3C7EF3;">($1.2K)</span></h6>
+
+                                    <p style="color: #8896A8;">Time In Stage : 1 Week Ago</p>
+                                </div>
+
+                                <div style="display: flex; justify-content: space-between;">
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">perm_identity</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">textsms</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">call</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">keyboard_voice</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">email</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">assignment</i></a>
+                                    </div> &nbsp;
+
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light navigate_button"><i
+                                                class="material-icons">navigate_next</i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- 10th info card end -->
+                            <!-- 11th  info card start -->
+
+                            <div style="background-color: #FFFFFF; border: 3px solid #E5E8EF; box-sizing: border-box;
+                                           border-radius: 10px;  margin-top: 4%;">
+                                <div>
+                                    <h6>John Do <span style=" color: #3C7EF3;">($1.2K)</span></h6>
+
+                                    <p style="color: #8896A8;">Time In Stage : 1 Week Ago</p>
+                                </div>
+
+                                <div style="display: flex; justify-content: space-between;">
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">perm_identity</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">textsms</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">call</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">keyboard_voice</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">email</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">assignment</i></a>
+                                    </div> &nbsp;
+
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light navigate_button"><i
+                                                class="material-icons">navigate_next</i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- 11th info card end -->
+                            <!-- 12th info card start -->
+                            <div style="background-color: #FFFFFF; border: 3px solid #E5E8EF; box-sizing: border-box;
+                                           border-radius: 10px; margin-top: 4%;">
+                                <div>
+                                    <h6>John Do <span style=" color: #3C7EF3;">($1.2K)</span></h6>
+
+                                    <p style="color: #8896A8;">Time In Stage : 1 Week Ago</p>
+                                </div>
+
+                                <div style="display: flex; justify-content: space-between;">
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">perm_identity</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">textsms</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">call</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">keyboard_voice</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">email</i></a>
+
+                                        <a class="btn-floating btn-small waves-effect waves-light person_button"><i
+                                                class="material-icons">assignment</i></a>
+                                    </div> &nbsp;
+
+                                    <div>
+                                        <a class="btn-floating btn-small waves-effect waves-light navigate_button"><i
+                                                class="material-icons">navigate_next</i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- 12th info card end -->
+                        </div>
+                    </div>
+                </div>
+                <!-- footer part design (Delete, win, lost, pipeline) design start -->
+                <div class="row">
+                    <div class="col m12">
+                        <div class="col m3">
+                            <a class="waves-effect waves-light btn-large"
+                                style="color: red; width: 100%; background-color: #FFFFFF;border: 1px solid red;"><i
+                                    class="material-icons left">delete</i>Delete</a>
+                        </div>
+                        <div class="col m3">
+                            <a class="waves-effect waves-light btn-large"
+                                style="color: green; width: 100%; background-color: #FFFFFF;border: 1px solid green;"><i
+                                    class="material-icons left">thumb_up</i>Win</a>
+                        </div>
+                        <div class="col m3">
+                            <a class="waves-effect waves-light btn-large"
+                                style="color: red; width: 100%; background-color: #FFFFFF; border: 1px solid red;"><i
+                                    class="material-icons left">thumb_down</i>Lost</a>
+                        </div>
+                        <div class="col m3">
+                            <a class="waves-effect waves-light btn-large pipeline-button"
+                                style="color: #FFB053; width: 100%; background-color: #FFFFFF; border: 1px solid #FFB053;"><i
+                                    class="material-icons left"></i>Pipeline</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+<script>
+    $(document).ready(function () {
+        $('.sidenav').sidenav();
+    });
+    //dropdown button work
+    $('.dropdown-trigger').dropdown();
+
+
+
+</script>
+
+</html>
